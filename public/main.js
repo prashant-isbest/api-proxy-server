@@ -1,6 +1,6 @@
 const fetchWeather = async (city) => {
   const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=787e66a44766865fcf7a5bd22b867ad9&units=metric`
   );
 
   if (response.status == 404) {
